@@ -1,4 +1,4 @@
-package com.mydb.common;
+package com.mydb.backend.paser;
 
 import java.nio.ByteBuffer;
 
@@ -11,7 +11,9 @@ import java.nio.ByteBuffer;
 
 public class Parser {
     public static long parseLong(byte[] buf){
+        //用于将字节数组包装到缓冲区中
         ByteBuffer buffer = ByteBuffer.wrap(buf, 0, 0);
+        // 此方法返回缓冲区当前位置的long值
         return buffer.getLong();
     }
 

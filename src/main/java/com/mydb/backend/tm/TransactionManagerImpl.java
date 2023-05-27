@@ -1,7 +1,7 @@
 package com.mydb.backend.tm;
 
 import com.mydb.common.Error;
-import com.mydb.common.Parser;
+import com.mydb.backend.paser.Parser;
 import com.mydb.utils.Panic;
 
 import java.io.IOException;
